@@ -40,44 +40,32 @@
 
 ## Install
 
-### Angular >= 12
+### Angular >= 19
 ```
 npm install dz-pdf-viewer
 ```
 > Partial Ivy compilated library bundles.
 
-### Angular >= 4
-```
-npm install dz-pdf-viewer@^7.0.0
-```
-
-### Angular < 4
-```
-npm install dz-pdf-viewer@~3.0.8
-```
 
 ## Usage
 
 *In case you're using ```systemjs``` see configuration [here](https://github.com/yassinekrika/dz-pdf-viewer/blob/master/SYSTEMJS.md).*
 
-Add ```PdfViewerModule``` to your module's ```imports```
+Add ```PdfViewerComponent``` to your component's ```imports```
 
 ```typescript
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app/app.component';
+import { Component } from '@angular/core';
+import { PdfViewerComponent } from 'dz-pdf-viewer';
 
-import { PdfViewerModule } from 'dz-pdf-viewer';
-
-@NgModule({
-  imports: [BrowserModule, PdfViewerModule],
-  declarations: [AppComponent],
-  bootstrap: [AppComponent]
+@Component({
+  selector: 'example-app',
+  standalone: true,
+  imports: [PdfViewerComponent],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-
-class AppModule {}
-
-platformBrowserDynamic().bootstrapModule(AppModule);
+export class AppComponent {
+}
 ```
 
 And then use it in your component
@@ -335,7 +323,7 @@ Url for non-latin characters source maps.
 [c-maps-url]="'assets/cmaps/'"
 ```
 
-Default url is: [https://unpkg.com/pdfjs-dist@2.0.550/cmaps/](https://unpkg.com/pdfjs-dist@2.0.550/cmaps/)
+Default url is: [https://unpkg.com/pdfjs-dist@4.8.69/cmaps/](https://unpkg.com/pdfjs-dist@4.8.69/cmaps/)
 
 To serve cmaps on your own you need to copy ```node_modules/pdfjs-dist/cmaps``` to ```assets/cmaps```.
 
@@ -549,12 +537,8 @@ search(stringToSearch: string) {
 ## Contribute
 [See CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Donation
-If this project help you reduce time to develop, you can give me a cup of tea :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/yassinekrika)
 
 ## License
 
-[MIT](https://tldrlegal.com/license/mit-license) © [Vadym Yatsyuk](https://github.com/yassinekrika)
+[MIT](https://tldrlegal.com/license/mit-license) © [Yassine KRIKA](https://github.com/yassinekrika)
 
