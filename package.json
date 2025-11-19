@@ -1,0 +1,83 @@
+{
+  "name": "dz-pdf-viewer",
+  "version": "1.0.1",
+  "description": "Angular 19 component for rendering PDF",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "build:stats": "ng build --stats-json",
+    "watch": "ng build --watch --configuration development",
+    "analyze": "webpack-bundle-analyzer dist/stats.json",
+    "test": "ng test --watch false",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
+    "test:w": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json",
+    "docs": "ng build --configuration production --output-path docs --base-href dz-pdf-viewer && cp ./docs/index.html ./docs/404.html",
+    "postinstall": "patch-package"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://yassinekrika@github.com/yassinekrika/dz-pdf-viewer.git"
+  },
+  "keywords": [
+    "angular",
+    "pdf",
+    "angular",
+    "angular-pdf",
+    "angular2-pdf",
+    "ng2",
+    "ng2-pdf",
+    "angular5"
+  ],
+  "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/yassinekrika/dz-pdf-viewer/issues"
+  },
+  "homepage": "https://github.com/yassinekrika/dz-pdf-viewer#readme",
+  "dependencies": {
+    "pdfjs-dist": "4.8.69",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.19",
+    "@angular/animations": "^19.2.15",
+    "@angular/cdk": "^19.2.19",
+    "@angular/cli": "~19.2.19",
+    "@angular/common": "^19.2.15",
+    "@angular/compiler": "^19.2.15",
+    "@angular/compiler-cli": "^19.2.15",
+    "@angular/core": "^19.2.15",
+    "@angular/forms": "^19.2.15",
+    "@angular/language-service": "19.2.15",
+    "@angular/material": "^19.2.19",
+    "@angular/platform-browser": "^19.2.15",
+    "@angular/platform-browser-dynamic": "^19.2.15",
+    "@angular/router": "^19.2.15",
+    "@types/jasmine": "~4.3.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^20",
+    "angular-eslint": "19.8.1",
+    "eslint": "^9.28.0",
+    "jasmine-core": "^4.6.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^19.2.2",
+    "patch-package": "^8.0.1",
+    "protractor": "~7.0.0",
+    "puppeteer": "^5.5.0",
+    "rxjs": "~7.8.1",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "8.33.1",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "zone.js": "~0.15.1"
+  }
+}
