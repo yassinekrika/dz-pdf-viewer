@@ -2,7 +2,7 @@
 
 1. Clone the project
 ```
-git clone https://github.com/VadimDez/dz-pdf-viewer.git
+git clone https://github.com/yassinekrika/dz-pdf-viewer.git
 ```
 
 2. Install dependencies

@@ -1,6 +1,6 @@
 {
   "name": "dz-pdf-viewer",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Angular 19 component for rendering PDF",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
+    "publish": "cd dist && npm publish --access public",
     "docs": "ng build --configuration production --output-path docs --base-href dz-pdf-viewer && cp ./docs/index.html ./docs/404.html",
     "postinstall": "patch-package"
   },
@@ -34,7 +35,7 @@
     "ng2-pdf",
     "angular5"
   ],
-  "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
+  "author": "Yassine KRIKA <yassinekrika2016@gmail.com>",
   "bugs": {
     "url": "https://github.com/yassinekrika/dz-pdf-viewer/issues"
   },

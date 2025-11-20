@@ -1,16 +1,7 @@
 <h1 align="center">Angular PDF Viewer</h1>
 <p align="center">
-  <a href="https://www.npmjs.com/package/dz-pdf-viewer">
-    <img src="https://img.shields.io/npm/dm/dz-pdf-viewer.svg?style=flat" alt="downloads">
-  </a>
   <a href="https://badge.fury.io/js/dz-pdf-viewer">
     <img src="https://badge.fury.io/js/dz-pdf-viewer.svg" alt="npm version">
-  </a>
-  <a href="https://gitter.im/ngx-pdf-viewer/Lobby" title="Gitter">
-    <img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg" alt="Gitter"/>
-  </a>
-  <a href="https://www.paypal.me/yassinekrika" title="Donate to this project using Paypal">
-    <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" />
   </a>
 </p>
 
@@ -20,13 +11,6 @@
 
 [https://yassinekrika.github.io/dz-pdf-viewer/](https://yassinekrika.github.io/dz-pdf-viewer/)
 
-#### Stackblitz Example
-
-[https://stackblitz.com/edit/dz-pdf-viewer](https://stackblitz.com/edit/dz-pdf-viewer)
-
-### Blog post
-
-[https://medium.com/@yassinekrika/render-pdf-in-angular-4-927e31da9c76](https://medium.com/@yassinekrika/render-pdf-in-angular-4-927e31da9c76)
 
 ## Overview
 
