@@ -17,7 +17,7 @@
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
     "publish": "cd dist && npm publish --access public",
-    "docs": "ng build --configuration production --output-path docs --base-href dz-pdf-viewer && cp ./docs/index.html ./docs/404.html",
+    "docs": "ng build --configuration production --output-path docs --base-href dz-pdf-viewer && mv docs/browser/* docs/ && rmdir docs/browser && cp docs/index.html docs/404.html",
     "postinstall": "patch-package"
   },
   "private": false,
