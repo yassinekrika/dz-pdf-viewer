@@ -1,6 +1,6 @@
 {
   "name": "dz-pdf-viewer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular 19 component for rendering PDF",
   "license": "MIT",
   "scripts": {
